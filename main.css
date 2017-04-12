@@ -1,0 +1,131 @@
+.main-header {
+    
+}
+
+
+/*
+.menu {
+    display:block;
+    width: 90px;
+    height: 90px;
+    text-indent: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+*/
+
+
+.circle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+    background: #45b29d;
+    z-index: 0;
+    transition-delay: .5s;
+}
+
+
+.hamburger {
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background: #fff;
+    content: '';
+    top: 44px;
+    left: 29px;
+    z-index: 1;
+}
+
+
+.hamburger::before {
+    top: -7px;
+    left: 0;
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background: #fff;
+    content: '';
+}
+
+
+.hamburger::after {
+    top: 7px;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background: #fff;
+}
+
+
+.logo-svg {
+    width: 66px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+
+.logo-path {
+    fill:#fff;
+}
+
+
+.woman-image {
+    background: url("images/homepage-hero_1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.empowering-people {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right:10%;
+    font-size:40px;
+    text-align: center;
+    color: white;
+}
+
+
+.italics {
+    font-style: italic;
+    color: lightblue;
+}
+
+.we-seek {
+    position: absolute;
+    top: 50%;
+    left: 1.75%;
+    right:1.75%;
+    font-size:20px;
+    text-align: center;
+    color:lightgray;
+}
+
+
+.play-button {
+    background: url("./images/icon-videoPlay-wide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 120px;
+    width: 120px;
+/*    display: block;*/
+/*    border-radius: 50%;*/
+    
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+    
+}
